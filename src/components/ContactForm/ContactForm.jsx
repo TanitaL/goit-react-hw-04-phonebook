@@ -11,10 +11,11 @@ const ContactForm = ({ contacts, submit }) => {
     const [number, setNumber] = useState('')
 
     const handleChange = evt => { 
-        const { name, number, value } = evt.currentTarget;
+        console.log(evt.currentTarget)
+        const { name, value } = evt.currentTarget;
 
         if (name === "name") setName(value)
-        else if(number === number) setNumber(value)
+        else if(name === "number") setNumber(value)
     }
     const onFormSubmit = evt => {
         evt.preventDefault();
