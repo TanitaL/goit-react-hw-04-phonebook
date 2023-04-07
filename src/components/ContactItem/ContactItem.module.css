@@ -1,0 +1,27 @@
+.contactsItem {
+  display: flex;
+  margin: 0;
+  gap: 20px;
+}
+.contactsName {
+  font-size: 20px;
+  margin: 0 0 15px 0;
+}
+.contactsNumber {
+  font-size: 20px;
+  margin: 0 0px 15px 0;
+}
+.contactsBtn {
+  background-color: white;
+  width: 50px;
+  height: fit-content;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 2px;
+  cursor: pointer;
+}
+.contactsBtn:hover {
+  background-color: #94a4b2;
+  color: white;
+  border: none;
+}
